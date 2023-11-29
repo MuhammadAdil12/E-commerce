@@ -1,0 +1,31 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto; /* Change from 90vh to auto */
+    overflow: hidden; /* Prevents child elements from overflowing */
+  }
+  
+  .popular h1 {
+    color: #171717;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .popular hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+  }
+  
+  .popular-item {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Use grid-template-columns instead of shorthand */
+    justify-items: center;
+  }
+  
