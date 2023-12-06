@@ -1,13 +1,13 @@
-// import { useContext } from "react"
+import { useContext } from "react"
 import "./CSS/ShopCategory.css"
-// import ShopContextProvider from "../components/Context/ShopContext"
+import { ShopContext } from "../components/Context/ShopContext"
 import dropdown_icon from "../components/Assets/dropdown_icon.png"
-import all_product from "../components/Assets/all_product";
+// import all_product from "../components/Assets/all_product";
 import Item from "../components/Item/Item"
 
 export const ShopCategory = (props) => {
   // console.log(ShopContextProvider);
-  // const {all_product} = useContext(ShopContextProvider)
+  const {all_product} = useContext(ShopContext)
 
 
   return (

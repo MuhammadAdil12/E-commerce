@@ -1,6 +1,9 @@
+import { CardItems } from "../components/CardItems/CardItems"
 
 export const Cart = () => {
   return (
-    <div>Cart</div>
+    <div>
+      <CardItems/>
+    </div>
   )
 }
